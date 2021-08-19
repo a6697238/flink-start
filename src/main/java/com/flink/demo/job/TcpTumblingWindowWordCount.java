@@ -8,7 +8,7 @@ import org.apache.flink.streaming.api.windowing.assigners.TumblingProcessingTime
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
 
-public class TcpWindowWordCount {
+public class TcpTumblingWindowWordCount {
 
     public static void main(String[] args) throws Exception {
 
